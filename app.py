@@ -1,9 +1,9 @@
 import base64
 import streamlit as st
-from bokeh.models.widgets import Button
+from bokeh.models import Button
 from bokeh.models import CustomJS
 from streamlit_bokeh_events import streamlit_bokeh_events
-from bokeh.models import Button
+
 
 from groq_ai import *
 from TTS import *
